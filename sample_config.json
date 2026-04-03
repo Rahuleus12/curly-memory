@@ -1,0 +1,32 @@
+{
+  "question": "Should artificial intelligence be regulated by governments?",
+  "context": "AI systems are becoming increasingly powerful and autonomous. Some argue regulation stifles innovation while others believe it's essential for public safety. Major economies like the EU, US, and China are taking different regulatory approaches.",
+  "category": "technology",
+  "num_agents": 6,
+  "max_rounds": 4,
+  "consensus_threshold": 0.7,
+  "model": "gpt-4",
+  "temperature_min": 0.3,
+  "temperature_max": 1.2,
+  "seed": 42,
+  "parallel": true,
+  "persona_indices": [0, 1, 2, 3, 4, 5],
+  "custom_questions": [
+    {
+      "text": "Should universal basic income be implemented nationwide?",
+      "context": "UBI proposals vary, but generally involve providing all citizens with a regular, unconditional sum of money. Proponents argue it reduces poverty; critics worry about costs and work disincentives.",
+      "category": "economics"
+    },
+    {
+      "text": "Is a four-day work week beneficial for society?",
+      "context": "Several countries and companies have experimented with a four-day work week. Results have been mixed, with some reporting increased productivity and others citing challenges.",
+      "category": "policy"
+    }
+  ],
+  "output_settings": {
+    "output_dir": "output",
+    "save_json": true,
+    "save_markdown": true,
+    "verbose": true
+  }
+}
